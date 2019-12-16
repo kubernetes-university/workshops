@@ -19,9 +19,30 @@ On Windows, [chocolatey](https://chocolatey.org/packages/kind) is the best optio
 
 ```
 choco install minikube
+```
 
+(note that Minikube will install also the Kubernetes CLI).
 
 ## KIND (Kubernetes in Docker)
 
-Full documentation [here](https://kind.sigs.k8s.io/).
+Full documentation [here](https://kind.sigs.k8s.io/). __KIND requires Docker Desktop to work__!
 
+```
+choco install docker-desktop
+choco install kind
+```
+
+
+# Kubernetes CLI
+
+For all installation methods, you'll be needing the Kubernetes CLI. Install it:
+
+Mac
+```
+brew install kubernetes-cli
+```
+
+Windows
+```
+choco install kubernetes-cli
+```
