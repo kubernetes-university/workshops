@@ -10,3 +10,7 @@ Table of contents
 2. [Prerequisite knowledge](docs/prereqs.md)
 
 3. Introduction to Kubernetes
+
+X. [Resources](docs/resources.md)
+
+[[more to come]]

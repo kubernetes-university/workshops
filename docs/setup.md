@@ -15,7 +15,7 @@ brew install minikube
 minikube start #will ask for administrator password
 ```
 
-On Windows, [chocolatey](https://chocolatey.org/packages/kind) is the best option:
+On Windows, [chocolatey](https://chocolatey.org/packages/kind) is the best option (remember to install HyperV Windows feature):
 
 ```
 choco install minikube
@@ -33,7 +33,7 @@ choco install kind
 ```
 
 
-# Kubernetes CLI
+## Kubernetes CLI
 
 For all installation methods, you'll be needing the Kubernetes CLI. Install it:
 
@@ -46,3 +46,13 @@ Windows
 ```
 choco install kubernetes-cli
 ```
+
+## Cloud Providers
+
+Azure, AWS, Google and IBM all offer managed Kubernetes services. They're the easiest way by far to *consume* Kubernetes without the hassle of installing it yourself.
+
+## No-installation methods
+
+An easy way to get access to *some* kubernetes cluster is to use [Play-with-Kubernetes](https://labs.play-with-k8s.com/), [Katacoda](https://www.katacoda.com/) or [Instruqt](https://instruqt.com/)
+
+
