@@ -13,8 +13,11 @@ This is a non-exhaustive collection of interesting courses and resources that ca
 ## Azure
 
 [The Azure Kubernetes Workshop](https://aksworkshop.io/)
+
 [Kubernetes Learning Path](https://azure.microsoft.com/en-us/resources/kubernetes-learning-path/)
+
 [AKS Workshop](https://github.com/pelithne/kubernetes-workshop)
+
 [Containerize your enterprise](https://github.com/denniszielke/phoenix)
 
 ## IBM
