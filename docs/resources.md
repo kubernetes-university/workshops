@@ -4,6 +4,10 @@ This is a non-exhaustive collection of interesting courses and resources that ca
 
 ## Agnostic
 
+[Kubernetes 101](https://www.cncf.io/blog/2019/12/16/kubernetes-101/)
+
+[Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+
 [Kubernetes intro by Bob Killen](https://github.com/mrbobbytables/k8s-intro-tutorials)
 
 ## AWS

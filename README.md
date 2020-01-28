@@ -9,7 +9,11 @@ Table of contents
 
 2. [Prerequisite knowledge](docs/prereqs.md)
 
-3. Introduction to Kubernetes
+3. [Docker essentials](docs/docker-essentials.md)
+
+4. [Docker sample app](docs/docker-sample.md)
+
+4. Introduction to Kubernetes
 
 X. [Resources](docs/resources.md)
 
