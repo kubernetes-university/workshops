@@ -31,3 +31,5 @@ This is a non-exhaustive collection of interesting courses and resources that ca
 ## Google Cloud
 
 [GCP Kubernetes Workshop](https://github.com/GoogleCloudPlatform/kubernetes-workshops)
+
+## More resources available [here](https://github.com/ams0/personal/blob/master/k8s-resources.md)
