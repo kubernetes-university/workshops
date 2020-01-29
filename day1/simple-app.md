@@ -5,7 +5,7 @@ Prereqs:
 - a kubeconfig pointing to a working cluster
 
 ```
-$> kubectl create deployment nginx --image=nginx
+$> kubectl run -n default nginx --image=nginx
 
 deployment.apps/nginx created
 
@@ -144,12 +144,20 @@ $> kubectl get deployment nginx --export -o json
 
 $> kubectl expose deployment/nginx  # Will this work?
 
+...
+        ports:
+          - containerPort: 80
+            protocol: TCP
+...
+
 $> kubectl get deploy,pod,svc
 $> kubectl get ep nginx
+NAME    ENDPOINTS                                     AGE
+nginx   172.17.0.10:80,172.17.0.11:80,172.17.0.8:80   6s
 
-#Scaling
-$> kubectl scale deployment nginx --replicas=3
+$> kubectl describe pod nginx-85ff79dd56-c2s64 | grep Node
 
-
+Node:         minikube/192.168.64.2
+Node-Selectors:  <none>
 
 ```
